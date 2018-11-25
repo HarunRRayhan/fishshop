@@ -256,7 +256,7 @@ button, input[type=submit]
     &:after
       background green
 
-  &.github, &.facebook, &.twitter
+  &.github, &.facebook, &.twitter, &.google
     border 0
     display block
     margin-bottom 2rem
@@ -278,6 +278,11 @@ button, input[type=submit]
     background #5EA9DD
     &:after
       background darken(#5EA9DD, 20%)
+  
+  &.google
+    background #dd4b39
+    &:after
+      background darken(#dd4b39, 20%)
 
 
 // Store Selector
@@ -292,3 +297,24 @@ button, input[type=submit]
     &[type="text"]
       text-align center
       font-size 3rem
+
+// Footer
+.footer
+    position fixed
+    bottom 0
+    left 0
+    width calc(100% - 20px)
+    z-index 9
+    padding 20px 50px
+    background #fff
+    border 2px solid #000
+    margin 0 10px
+    text-align center
+    p
+      font-size 16px
+      margin 0
+      .heart_icon
+        color #e25555
+      .footer_image
+        max-height 25px
+        margin-bottom -5px
