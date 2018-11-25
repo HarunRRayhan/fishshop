@@ -5,3 +5,4 @@ node_modules/
 notes.md
 build/
 package-lock.json
+src/base.js
