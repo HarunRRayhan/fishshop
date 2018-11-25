@@ -1,5 +1,6 @@
 {
   "name": "react-firebase-store",
+  "homepage": "http://fishshop.theharun.com",
   "version": "0.0.5",
   "private": true,
   "devDependencies": {
